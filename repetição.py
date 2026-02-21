@@ -1,11 +1,11 @@
-""" inicial = int(input('Qual valor deseja iniciar?'))
+inicial = int(input('Qual valor deseja iniciar?'))
 final = int(input('Qual valor deseja finalizar?'))
 
 x = inicial
 while ( x <= final):
     if ( x % 2 == 0):
      print(x)
-    x = x + 1 """
+    x = x + 1
 
 
 """ soma = 0
