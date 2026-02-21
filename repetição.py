@@ -1,12 +1,11 @@
-inicial = int(input('Qual valor deseja iniciar?'))
+""" """ """ inicial = int(input('Qual valor deseja iniciar?'))
 final = int(input('Qual valor deseja finalizar?'))
 
 x = inicial
 while ( x <= final):
     if ( x % 2 == 0):
      print(x)
-    x = x + 1
-
+    x = x + 1 """
 
 """ soma = 0
 cont = 1
@@ -66,7 +65,7 @@ while (i <= 9):
 for i in range (0,9,2):
     print(i) """
 
-""" print('LANCHONETE')
+print('LANCHONETE')
 print('1 - Coxinha (R$5,00)')
 print('2 - Pastel (R$7,00)')
 print('3 - Café (R$4,00)')
@@ -98,6 +97,6 @@ while True:
        break
 
     else:
-        print('Produto inválido') """
+        print('Produto inválido')
 
 
