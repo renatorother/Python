@@ -1,10 +1,21 @@
+#append - Adiciona um item ao final
+#insert - Adiciona um item no índice indicado
+#pop - Remove do final ou o índice indicado
+#del - apaga um índice indicado
+#clear - limpa a lista
+#extend - extende a lista
+
+
 lista = [10, 20, 30, 40]
 lista[2] = 300
-lista.append(50) #adiciona ao final da lista
+lista.append(50) 
 lista.append(60)
-lista.pop() #remove o último valor da lista ou o índice indicado
+lista.pop() 
 lista.append(70)
-del lista[2] #deleta o índice indicado da lista
+lista.insert(0, 5)
+del lista[2] 
+
+#lista.clear
 
 
 print(lista)
